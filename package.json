@@ -1,6 +1,6 @@
 {
   "name": "ziko-lottie",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "Lottie player element for zikojs",
   "main": "index.js",
   "type": "module",
@@ -12,8 +12,13 @@
   },
   "author": "zakaria elaloui",
   "keywords": [
+    "ziko",
     "zikojs",
-    "zikojs-addons"
+    "ziko.js",
+    "zikojs-addons",
+    "lottiefiles",
+    "lottie-web",
+    "animation"
   ],
   "exports": {
     ".": {
@@ -31,7 +36,6 @@
   },
   "dependencies": {
     "@lottiefiles/lottie-player": "^2.0.4",
-    "lottie-web": "^5.12.2",
     "ziko": "^0.0.18"
   }
 }
