@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "@lottiefiles/lottie-player": "^2.0.4",
-    "ziko": "^0.0.18"
+    "ziko": "^0.0.20"
   }
 }

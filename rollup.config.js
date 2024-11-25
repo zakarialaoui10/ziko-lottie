@@ -58,7 +58,7 @@ isProduction &&
 export default {
   input: "src/index.js",
   output,
-  external: ["ziko"],
+  external: ["Ziko"],
   plugins: [
     resolve(),
     commonjs(),
