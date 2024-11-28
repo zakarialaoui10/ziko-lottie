@@ -28,6 +28,9 @@ const output = [
     name: NamedExport,
     banner,
     exports: "named",
+    globals: {
+      ziko: "Ziko",
+    },
   },
 ];
 isProduction &&
@@ -58,7 +61,7 @@ isProduction &&
 export default {
   input: "src/index.js",
   output,
-  external: ["Ziko"],
+  external: ["ziko"],
   plugins: [
     resolve(),
     commonjs(),

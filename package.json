@@ -1,6 +1,6 @@
 {
   "name": "ziko-lottie",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Lottie player element for zikojs",
   "main": "index.js",
   "type": "module",
