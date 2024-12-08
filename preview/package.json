@@ -12,7 +12,6 @@
     "vite": "^5.4.8"
   },
   "dependencies": {
-    "ziko": "^0.0.18",
-    "ziko-lottie": "^0.0.3"
+    "ziko": "^0.0.21"
   }
 }

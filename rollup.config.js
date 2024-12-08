@@ -40,6 +40,14 @@ isProduction &&
       format: "es",
       banner,
       exports: "named",
+      plugins: [
+        terser({
+          output: {
+            comments: (node, { type, value }) =>
+              type === "comment2" && value.includes("Author"),
+          },
+        }),
+      ],
     },
     {
       file: `dist/${Addon_name}.min.js`,
