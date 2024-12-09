@@ -1,6 +1,6 @@
 {
   "name": "ziko-lottie",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "description": "Lottie player element for zikojs",
   "main": "index.js",
   "type": "module",
@@ -26,6 +26,11 @@
       "require": "./dist/ziko-lottie.cjs"
     }
   },
+  "files": [
+    "src",
+    "dist",
+    "LICENCE"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.0",
@@ -36,6 +41,6 @@
   },
   "dependencies": {
     "@lottiefiles/lottie-player": "^2.0.4",
-    "ziko": "^0.0.20"
+    "ziko": "^0.0.22"
   }
 }
