@@ -1,6 +1,6 @@
-import {ZikoUIElement} from "ziko"
+import {UIElement} from "ziko"
 import "@lottiefiles/lottie-player"
-class ZikoLottiePlayer extends ZikoUIElement{
+class ZikoLottiePlayer extends UIElement{
     constructor(src,width,height = width){
         super("lottie-player","LottiePlayer");
         this.element.src=src;
